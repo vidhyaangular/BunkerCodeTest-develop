@@ -1,0 +1,7 @@
+<form  name="myForm">
+    First name: <input type="text" [(ngModel)]="fname" name="fname"><br>
+    Last name: <input type="text" [(ngModel)]="lname" name="lname"><br>
+    Favorite Color: <input type="text" [(ngModel)]="favcolor" name="favcolor"><br>
+    <input type="button" (click)="formSubmit()" value="Add Person">
+  </form>
+  <div >{{summary }}</div>
